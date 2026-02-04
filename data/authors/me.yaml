@@ -1,0 +1,138 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Sohan Roy
+  given: Sohan
+  family: Roy
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: he/him
+postnominals:
+  - MSc
+status:
+  icon: "☕️"
+role: Computational Fluid Dynamics Engineer
+bio: |
+  Sohan Roy is a researcher in Engineering Mechanics specializing in Fluid Mechanics,
+   with a core focus on computational methods for aerospace, environmental as well as biomedical applications. A graduate 
+   of IIT Kharagpur and KTH Royal Institute of Technology, his expertise lies at the 
+   intersection of fluid dynamics and numerical methods. Outside of the 
+   lab, Sohan is a multi-instrumentalist who finds balance playing the piano and the 
+   esraj.
+
+#affiliations:
+#  - name: Meta AI
+#    url: https://ai.meta.com/
+
+links:
+  - icon: at-symbol
+    url: mailto:sohanroy2000@gmail.com
+    label: E-mail Me
+#  - icon: brands/github
+#    url: https://github.com/example
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/sohan-roy-1345bb1a4/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=mrGyPQ0AAAAJ&hl=en&oi=ao
+#  - icon: academicons/orcid
+#    url: https://orcid.org/0000-0002-1825-0097
+
+interests:
+  - High-Fidelity CFD
+  - Surrogate modelling
+  - Turbulence
+
+education:
+  - degree: "M.Sc Engineering Mechanics (Track: Fluid Mechanics)"
+    institution: KTH Royal Institute of Technology
+    start: 08/2023
+    end: 07/2025
+    summary: |
+      Thesis on Inverse design for inter-compressor ducts
+    button:
+      text: Download Masters Thesis
+      url: https://www.diva-portal.org/smash/get/diva2:1982323/FULLTEXT01.pdf
+      icon: hero/arrow-down-tray
+  - degree: B.Tech Ocean Engineering and Naval Architecture
+    institution: Indian Institute of Technology (IIT) Kharagpur
+    start: 07/2019
+    end: 05/2023
+
+experience:
+  - role: Masters thesis student
+    org: GKN Aerospace, Sweden
+    start: 01/2025
+    end: 06/2025
+    summary: |
+      Developed an inverse design algorithm to design highly agressive inter-compressor ducts in aero-engines. This work involved scripting in Python, inhouse 3D RANS solver, Boundary layer codes, as well as developing a metaheuristic optimization algorithm.
+#    button:
+#      text: View portfolio
+#      url: /
+#      icon: hero/arrow-down-tray
+  - role: Research intern
+    org: Dolprop industries AB
+    start: 05/2022
+    end: 07/2022
+    summary: |
+      Designed and computatinoally evaluated the hydrodynamic performance of various reverse thrust propulsion kinematics for bio-inspired ship propellers.
+
+skills:
+  - name: Software
+    items:
+      - label: Ansys Fluent
+        level: 5
+      - label: OpenFOAM
+        level: 3
+      - label: COMSOL
+        level: 4
+      - label: Solidworks
+        level: 3
+      - label: Fusion360
+        level: 4
+  - name: Hardware
+    items:
+      - label: Wind-tunnels
+        level: 4
+      - label: Imaging system
+        level: 4
+      - label: Micro-controller
+        level: 2
+      - label: strip-board assembly
+        level: 2
+      - label: machining
+        level: 3
+  - name: Programming
+    items:
+      - label: Pythong
+        level: 4
+      - label: MATLAB
+        level: 4
+      - label: C
+        level: 3
+      - label: Fortran
+        level: 2
+      - label: Bash
+        level: 1
+
+
+languages:
+  - name: English
+    level: 5
+    label: Fluent
+  - name: Bengali
+    level: 5
+    label: Native
+  - name: Hindi
+    level: 4
+    label: Advanced
+  - name: Swedish
+    level: 1
+    label: Beginner
+
+awards:
+  - title: Insitute Silver Medal
+    awarder: Indian Institute of Technology (IIT) Kharagpur
+    date: "2022-12-01"
+    summary: Awarded for graduating top of my undergraduate class.
+    icon: medal
