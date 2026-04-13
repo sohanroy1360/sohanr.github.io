@@ -18,8 +18,7 @@ authors:
   - Blanka Tonsic
 
 image:
-  caption: "Semi cross-sectional view of an aircraft engine in the axial-radial plane with an inter-compressor duct (marked in red)"
-  filename: Inter-compressor-duct-Tonsic-et-al.png
+  caption: Semi cross-sectional view of an aircraft engine in the axial-radial plane with an inter-compressor duct (marked in red)
   focal_point: "Smart"
 
 links:
