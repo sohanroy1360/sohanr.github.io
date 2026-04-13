@@ -24,7 +24,7 @@ image:
 
 links:
   - name: Full Report
-    url: 'RoySeemannMastersThesis.pdf.pdf'
+    url: 'RoySeemannMastersThesis.pdf'
     icon_pack: fas
     icon: 📄
     target: '_blank'
