@@ -10,15 +10,29 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: about.biography
+  - block: resume-biography-3
     content:
       username: me
+      text: ''
+      button:
+        text: Download CV
+        url: uploads/CV_sohanr.pdf
       headings:
         about: 'Professional Summary'
+        education: ''
+        interests: ''
     design:
+      # These flags explicitly tell the block NOT to render those lists
+      show_interests: false
+      show_education: false
       background:
         gradient_mesh:
           enable: true
+      name:
+        size: md
+      avatar:
+        size: medium
+        shape: circle
 
   - block: resume-experience
     content:
