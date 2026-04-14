@@ -97,5 +97,29 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+    - block: resume-experience-1
+    content:
+      title: Experience
+      username: me
+    design:
+      columns: '2'
+  - block: resume-skills-1
+    content:
+      title: Skills
+      username: me
+    design:
+      columns: '2'
+  - block: resume-awards-1
+    content:
+      title: Awards
+      username: me
+    design:
+      columns: '2'
+  - block: resume-languages-1
+    content:
+      title: Languages
+      username: me
+    design:
+      columns: '2'
   
 ---
