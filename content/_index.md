@@ -97,7 +97,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-    - block: resume-experience-1
+  - block: resume-experience-1
     content:
       title: Experience
       username: me
