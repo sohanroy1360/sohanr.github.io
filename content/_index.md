@@ -10,33 +10,29 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: resume-biography-3
+  - block: about.avatar
     content:
       username: me
-      text: ''
+      text: |-
+        Sohan Roy is a researcher specializing in Fluid Mechanics, with a core focus on computational methods for aerospace, environmental as well as biomedical applications. A graduate of IIT Kharagpur and KTH Royal Institute of Technology, his expertise lies at the intersection of fluid dynamics and numerical methods. Outside of the lab, Sohan is a multi-instrumentalist who finds balance playing the piano and the esraj.
       button:
         text: Download CV
         url: uploads/CV_sohanr.pdf
-      headings:
-        about: 'Professional Summary'
-        education: ''
-        interests: ''
     design:
-      # These flags explicitly tell the block NOT to render those lists
-      show_interests: false
-      show_education: false
       background:
         gradient_mesh:
           enable: true
-      name:
-        size: md
-      avatar:
-        size: medium
-        shape: circle
 
   - block: resume-experience
     content:
       title: Experience
+      username: me
+    design:
+      columns: '2'
+
+  - block: resume-education
+    content:
+      title: Education
       username: me
     design:
       columns: '2'
@@ -69,11 +65,8 @@ sections:
       title: Recent News
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
       count: 10
-      # Filter on criteria
       filters:
         author: ''
         category: ''
@@ -82,14 +75,10 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ''
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: card
-      # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
 ---
