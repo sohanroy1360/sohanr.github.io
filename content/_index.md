@@ -12,10 +12,8 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/CV_sohanr.pdf
@@ -24,19 +22,14 @@ sections:
         education: ''
         interests: ''
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
           enable: true
-
-      # Name heading sizing to accommodate long or short names
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
+        size: md
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: medium
+        shape: circle
 
   - block: resume-experience
     content:
@@ -67,17 +60,35 @@ sections:
     design:
       view: citation
 
+  - block: resume-skills
+    content:
+      title: Skills & Hobbies
+      username: me
+    design:
+      columns: '2'
+
+  - block: resume-awards
+    content:
+      title: Awards
+      username: me
+    design:
+      columns: '2'
+
+  - block: resume-languages
+    content:
+      title: Languages
+      username: me
+    design:
+      columns: '2'
+
   - block: collection
     id: news
     content:
       title: Recent News
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
       count: 10
-      # Filter on criteria
       filters:
         author: ''
         category: ''
@@ -86,14 +97,10 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ''
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: card
-      # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
 ---
