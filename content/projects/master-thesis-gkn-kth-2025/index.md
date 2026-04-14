@@ -31,5 +31,12 @@ links:
 
 Traditionally, aero engine components are designed employing a manual iterative design-test-make_changes process. Such methods require the designer's immense experience and few months to even a year. This project develops and validates a two-step inverse design algorithm for aggressive inter-compressor ducts. The method uses a metaheuristic approach for optimizing the duct wall pressure distribution and a Modified Garabedian-McFadden (MGM) algorithm for geometry creation. The optimizer takes less than a day and the MGM algorithm calculates the 3-D geometry from the pressure curve in less than an hour!
 
-{{< youtube 1hQ_zea5D78 >}}
-<p align="center"><em>Evolution of geometry from a straight duct to an ICD</em></p>
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+  <div style="flex: 1;">
+    {{< youtube kKiNriYDhu4 >}}
+  </div>
+  <div style="flex: 1;">
+    {{< youtube 1hQ_zea5D78 >}}
+  </div>
+</div>
+<p align="center"><em>Evolution of geometry from a straight duct to an ICD (Left: Initial, Right: Optimized)</em></p>
