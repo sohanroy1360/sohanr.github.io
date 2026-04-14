@@ -10,7 +10,7 @@ design:
   spacing: '6rem'
 
 sections:
-- block: about.biography
+  - block: about.biography
     content:
       username: me
       headings:
