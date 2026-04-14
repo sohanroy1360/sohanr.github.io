@@ -50,7 +50,7 @@ sections:
       columns: '1'    
 
   - block: collection
-    id: publications
+    id: papers
     content:
       title: Recent Publications
       text: ''
