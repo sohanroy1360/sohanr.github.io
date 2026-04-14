@@ -10,18 +10,18 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: about.avatar
+  - block: markdown
     content:
+      title: 'Professional Summary'
       username: me
       text: |-
         Sohan Roy is a researcher specializing in Fluid Mechanics, with a core focus on computational methods for aerospace, environmental as well as biomedical applications. A graduate of IIT Kharagpur and KTH Royal Institute of Technology, his expertise lies at the intersection of fluid dynamics and numerical methods. Outside of the lab, Sohan is a multi-instrumentalist who finds balance playing the piano and the esraj.
-      button:
-        text: Download CV
-        url: uploads/CV_sohanr.pdf
+
+        {{< icon name="download" >}} [Download CV](uploads/CV_sohanr.pdf)
     design:
+      columns: '1'
       background:
-        gradient_mesh:
-          enable: true
+        gradient_mesh: true
 
   - block: resume-experience
     content:
