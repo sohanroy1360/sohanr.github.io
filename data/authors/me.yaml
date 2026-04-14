@@ -44,22 +44,6 @@ interests:
   - Wind-tunnel experiments
   - Turbulence
 
-education:
-  - degree: "M.Sc Engineering Mechanics (Track: Fluid Mechanics)"
-    institution: KTH Royal Institute of Technology
-    start: 08/2023
-    end: 07/2025
-    summary: |
-      Thesis on Inverse design for inter-compressor ducts
-    button:
-      text: Download Masters Thesis
-      url: https://www.diva-portal.org/smash/get/diva2:1982323/FULLTEXT01.pdf
-      icon: hero/arrow-down-tray
-  - degree: B.Tech Ocean Engineering and Naval Architecture
-    institution: Indian Institute of Technology (IIT) Kharagpur
-    start: 07/2019
-    end: 05/2023
-
 experience:
   - role: Masters thesis student
     org: GKN Aerospace, Sweden
