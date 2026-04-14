@@ -32,14 +32,14 @@ sections:
         size: medium
         shape: circle
 
-  - block: resume-experience
+  - block: resume-experience-3
     content:
       title: Experience
       username: me
     design:
       columns: '2'
 
-  - block: resume-education
+  - block: resume-education-3
     content:
       title: Education
       username: me
