@@ -10,29 +10,37 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: markdown
+  - block: resume-biography-3
     content:
-      title: 'Professional Summary'
+      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: |-
-        Sohan Roy is a researcher specializing in Fluid Mechanics, with a core focus on computational methods for aerospace, environmental as well as biomedical applications. A graduate of IIT Kharagpur and KTH Royal Institute of Technology, his expertise lies at the intersection of fluid dynamics and numerical methods. Outside of the lab, Sohan is a multi-instrumentalist who finds balance playing the piano and the esraj.
-
-        {{< icon name="download" >}} [Download CV](uploads/CV_sohanr.pdf)
+      text: ''
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV
+        url: uploads/CV_sohanr.pdf
+      headings:
+        about: 'Professional Summary'
+        education: ''
+        interests: ''
     design:
-      columns: '1'
+      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
-        gradient_mesh: true
+        gradient_mesh:
+          enable: true
+
+      # Name heading sizing to accommodate long or short names
+      name:
+        size: md # Options: xs, sm, md, lg (default), xl
+
+      # Avatar customization
+      avatar:
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
 
   - block: resume-experience
     content:
       title: Experience
-      username: me
-    design:
-      columns: '2'
-
-  - block: resume-education
-    content:
-      title: Education
       username: me
     design:
       columns: '2'
@@ -65,8 +73,11 @@ sections:
       title: Recent News
       subtitle: ''
       text: ''
+      # Page type to display. E.g. post, talk, publication...
       page_type: blog
+      # Choose how many pages you would like to display (0 = all pages)
       count: 10
+      # Filter on criteria
       filters:
         author: ''
         category: ''
@@ -75,10 +86,14 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ''
+      # Choose how many pages you would like to offset by
       offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
+      # Choose a layout view
       view: card
+      # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
 ---
