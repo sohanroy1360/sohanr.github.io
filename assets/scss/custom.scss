@@ -1,8 +1,11 @@
-/* Swaps the background only when Dark Mode is active */
+/* This targets the specific div Hugo uses for backgrounds */
 .dark #intro .home-section-bg {
-  background-image: url('https://sohanroy1360.github.io/sohanr.github.io/media/1556k_MUR48_Schlieren_negative.png') !important;
-  /* Adds a dark overlay to ensure your white text is readable */
-  background-blend-mode: multiply !important;
-  background-color: #444 !important;
-  filter: brightness(0.7) !important;
+  background-image: url('../media/1556k_MUR48_Schlieren_negative.png') !important;
+  
+  /* These lines ensure the positioning stays correct */
+  background-size: cover !important;
+  background-position: center !important;
+  
+  /* This dims the image slightly to make white text pop */
+  filter: brightness(0.6) !important;
 }
