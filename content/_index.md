@@ -28,7 +28,7 @@ sections:
         gradient_mesh:
           enable: false
         image:
-          filename: F1_wake_CFD.png
+          filename: F1_wake_CFD_bw.png
           filters:
             brightness: 0.4
           size: cover
