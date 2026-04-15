@@ -11,6 +11,7 @@ design:
 
 sections:
   - block: resume-biography-3
+  - id: intro
     content:
       username: me
       text: ''
