@@ -29,9 +29,9 @@ sections:
           filename: 1556k_MUR48_Schlieren.png
           filters:
             brightness: 0.4  # Adjust (0.1 to 1.0) to keep text readable
-          size: contain
-          position: center
-          parallax: false          
+          size: cover
+          position: left
+          parallax: true          
       name:
         size: md
       avatar:
