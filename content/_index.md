@@ -31,7 +31,7 @@ sections:
             brightness: 0.4  # Adjust (0.1 to 1.0) to keep text readable
           size: contain
           position: center
-          parallax: true          
+          parallax: false          
       name:
         size: md
       avatar:
