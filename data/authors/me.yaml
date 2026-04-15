@@ -71,13 +71,24 @@ experience:
 #      text: View portfolio
 #      url: /
 #      icon: hero/arrow-down-tray
+  - role: Graduate Researcher
+    org: Fluid Physics Lab, KTH Royal Institute of Technology, Sweden
+    start: 09/2024
+    end: 01/2025
+    summary: |
+      Constructed a large-scale facility for caustic-based wave visualization, integrating a microcontroller-based synchronization system for automated triggering and image acquisition. Optimized optical parameters to maximize spatial resolution and visualization quality.
   - role: Research intern
     org: Dolprop industries AB
     start: 05/2022
     end: 07/2022
     summary: |
       Designed and computatinoally evaluated the hydrodynamic performance of various reverse thrust propulsion kinematics for bio-inspired ship propellers.
-
+  - role: Undergraduate researcher
+    org: BIAH Research Lab, Indian Institute of Technology (IIT) Kharagpur
+    start: 01/2022
+    end: 04/2023
+    summary: |
+      Analyzed the aerodynamic performance of bio-inspired flapping foils using unsteady CFD and dynamic meshing. Optimized stroke kinematics and pivot placement to maximize propulsive efficiency and force production.
 skills:
   - name: Software
     items:
