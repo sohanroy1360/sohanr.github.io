@@ -24,7 +24,14 @@ sections:
     design:
       background:
         gradient_mesh:
-          enable: true
+          enable: false
+        image:
+          filename: 1556k_MUR48_Schlieren.png
+          filters:
+            brightness: 0.4  # Adjust (0.1 to 1.0) to keep text readable
+          size: cover
+          position: center
+          parallax: true          
       name:
         size: md
       avatar:
