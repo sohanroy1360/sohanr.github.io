@@ -290,7 +290,3 @@ hugoblox:
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
-  # Add this at the end of params.yaml
-plugins:
-  css:
-    - custom
