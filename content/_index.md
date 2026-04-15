@@ -26,7 +26,7 @@ sections:
         gradient_mesh:
           enable: false
         image:
-          filename: 1556k_MUR48_Schlieren_tallest.png
+          filename: F1_wake_CFD.png
           filters:
             brightness: 0.4  # Adjust (0.1 to 1.0) to keep text readable
           size: cover
