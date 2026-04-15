@@ -1,9 +1,9 @@
-/* Swaps the background only when Dark Mode is active */
+/* target the background container specifically to keep theme filters working */
 .dark #intro {
-  background-image: url('/media/1556k_MUR48_Schlieren_negative.png') !important;
-}
-
-/* Optional: Make the background even darker for better text contrast */
-.dark #intro .section-bg {
-  filter: brightness(0.3);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                      url('/media/1556k_MUR48_Schlieren_negative.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important; /* This mimics the parallax effect */
+    background-repeat: no-repeat !important;
 }
