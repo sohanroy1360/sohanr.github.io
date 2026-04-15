@@ -1,9 +1,8 @@
-/* target the background container specifically to keep theme filters working */
-.dark #intro {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                      url('/media/1556k_MUR48_Schlieren_negative.png') !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-attachment: fixed !important; /* This mimics the parallax effect */
-    background-repeat: no-repeat !important;
+/* Swaps the background only when Dark Mode is active */
+.dark #intro .home-section-bg {
+  background-image: url('https://sohanroy1360.github.io/sohanr.github.io/media/1556k_MUR48_Schlieren_negative.png') !important;
+  /* Adds a dark overlay to ensure your white text is readable */
+  background-blend-mode: multiply !important;
+  background-color: #444 !important;
+  filter: brightness(0.7) !important;
 }
