@@ -1,0 +1,9 @@
+/* Swaps the background only when Dark Mode is active */
+.dark #intro {
+  background-image: url('/media/1556k_MUR48_Schlieren_negative.png') !important;
+}
+
+/* Optional: Make the background even darker for better text contrast */
+.dark #intro .section-bg {
+  filter: brightness(0.3);
+}
