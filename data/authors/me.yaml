@@ -14,7 +14,7 @@ status:
   icon: "☕️"
 role: Computational Fluid Dynamics Engineer
 bio: |
-  Sohan Roy is a researcher specializing in Fluid Mechanics,
+   Sohan Roy is a researcher specializing in Fluid Mechanics,
    with a core focus on computational methods for aerospace, environmental as well as biomedical applications. A graduate 
    of IIT Kharagpur and KTH Royal Institute of Technology, his expertise lies at the 
    intersection of fluid dynamics and numerical methods. Outside of the 
@@ -61,6 +61,12 @@ education:
     end: 05/2023
 
 experience:
+  - role: Mechanical Engineer
+    org: Oasys Infocom, India
+    start: 10/2025
+    end: Present
+    summary: |
+      Optimized **photovoltaic (PV) array topologies** by analyzing boundary layer interactions to determine ideal cell-ground clearance and row-to-row pitch. Conducted **aero-structural loading simulations** to evaluate lift and downforce characteristics, ensuring structural feasibility and maximizing power density through strategic geometric optimization.
   - role: Masters thesis student
     org: GKN Aerospace, Sweden
     start: 01/2025
