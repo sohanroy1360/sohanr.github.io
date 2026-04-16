@@ -28,7 +28,7 @@ sections:
         gradient_mesh:
           enable: false
         image:
-          filename: Gemini_Generated_Image_h1fdu3h1fdu3h1fd_169.png
+          filename: Remove_the_gemini_202604161236.png
           filters:
             brightness: 0.4
           size: cover
