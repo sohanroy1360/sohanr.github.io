@@ -42,7 +42,7 @@ interests:
 
 education:
   - degree: "M.Sc Engineering Mechanics (Track: Fluid Mechanics)"
-    institution: KTH Royal Institute of Technology
+    institution: KTH Royal Institute of Technology, Sweden
     start: 08/2023
     end: 07/2025
     summary: |
@@ -52,7 +52,7 @@ education:
       url: https://www.diva-portal.org/smash/get/diva2:1982323/FULLTEXT01.pdf
       icon: hero/arrow-down-tray
   - degree: B.Tech Ocean Engineering and Naval Architecture
-    institution: Indian Institute of Technology (IIT) Kharagpur
+    institution: Indian Institute of Technology (IIT) Kharagpur, India
     start: 07/2019
     end: 05/2023
 
@@ -80,7 +80,7 @@ experience:
     summary: |
       Constructed a large-scale facility for caustic-based wave visualization, integrating a microcontroller-based synchronization system for automated triggering and image acquisition. Optimized optical parameters to maximize spatial resolution and visualization quality.
   - role: Research intern
-    org: Dolprop industries AB
+    org: Dolprop industries AB, Sweden
     start: 05/2022
     end: 07/2022
     summary: |
