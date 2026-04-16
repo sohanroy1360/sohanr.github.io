@@ -14,12 +14,7 @@ status:
   icon: "☕️"
 role: Computational Fluid Dynamics Engineer
 bio: |
-   **Sohan Roy is a researcher specializing in Fluid Mechanics,
-   with a core focus on computational methods for aerospace, environmental as well as biomedical applications. A graduate 
-   of IIT Kharagpur and KTH Royal Institute of Technology, his expertise lies at the 
-   intersection of fluid dynamics and numerical methods. Outside of the 
-   lab, Sohan is a multi-instrumentalist who finds balance playing the piano and the 
-   esraj.**
+   **A researcher focused on computational fluid mechanics, Sohan Roy explores applications spanning from aerospace systems to biomedical flows. With an academic foundation from IIT Kharagpur and KTH Royal Institute of Technology, his work bridges the gap between theoretical dynamics and numerical implementation. He complements his technical pursuits as a multi-instrumentalist, specializing in piano and a traditional Indian string instrument called esraj.**
 
 #affiliations:
 #  - name: Meta AI
@@ -42,7 +37,8 @@ interests:
   - High-Fidelity CFD
   - Surrogate modelling
   - Wind-tunnel experiments
-  - Turbulence
+  - Rotorcraft
+  - Turbomachinery
 
 education:
   - degree: "M.Sc Engineering Mechanics (Track: Fluid Mechanics)"
