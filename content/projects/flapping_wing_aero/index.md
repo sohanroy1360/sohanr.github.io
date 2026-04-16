@@ -26,5 +26,5 @@ links:
     target: '_blank'
 ---
 
-Rotating component propulsion generates significant tangential momentum (axially rotating fluid structures), which cannot be used to generate thrust. Flapping foil propulsion averts this problem due to their kinematics, which generate thrust by producing reverse Von-Karman vortices in the plane of motion. Asymmetric flapping foil expands their application to airborne-vehicles by employing asymmetric Strouhal number for up- and down-stroke. This project evaluates various combinations of Strouhal numbers, pivot location and other parameters using RANS laminar simulation.
+Rotating component propulsion generates significant tangential momentum (axially rotating fluid structures), which cannot be used to generate thrust. This leads to a propulsive efficiency of only 50-70 %. Flapping foil propulsion averts this problem due to their kinematics, which generate thrust by producing reverse Von-Karman vortices in the plane of motion, potentially increasing the number to around 90%. Asymmetric flapping foil expands their application to airborne-vehicles by employing asymmetric Strouhal number for up- and down-stroke. This project evaluates various combinations of Strouhal numbers, pivot location and other parameters using RANS laminar simulation.
 
