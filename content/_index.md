@@ -28,7 +28,7 @@ sections:
         gradient_mesh:
           enable: false
         image:
-          filename: F1_wake_CFD_bw.png
+          filename: Gemini_Generated_Image_h1fdu3h1fdu3h1fd.png
           filters:
             brightness: 0.4
           size: cover
