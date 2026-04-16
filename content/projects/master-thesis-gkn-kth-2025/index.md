@@ -40,4 +40,4 @@ Traditionally, aero engine components are designed employing a manual iterative 
     {{< youtube 1hQ_zea5D78 >}}
   </div>
 </div>
-<p align="center"><em>Evolution of geometry from a straight duct to an ICD (Left: Initial, Right: Optimized)</em></p>
+<p align="center"><em>Evolution from a straight duct to an ICD (Left: Target vs Computed pressure distribution, Right: Geometry)</em></p>
